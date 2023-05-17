@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&family=Outfit:wght@700&display=swap');
+
+:root{
+  --light-laveneder:hsl(241, 100%, 89%);
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+main{
+  width: 350px;
+}
+.result{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height:300px;
+  padding:10px 0;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-bottom-left-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+}
+.score-from, .result h1,.performance-detail{
+  color: var(--light-laveneder);
+}
+.score-got{
+  color:white;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.result h1{
+  font-size: 1rem;
+   
+}
+.performance-detail{
+  width: 70%;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.remark{
+  color:white;
+}
+.score{
+  height: 130px;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0)
+  );
+}
+.summary{
+  padding: 20px;
+}
+.summary-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width:100%;
+  background-color: blanchedalmond;
+  margin: 15px 0;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.summary button{
+  padding: 15px;
+  width: 100%;
+  border: none;
+  border-radius: 50px;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  font-size: 1rem;
+  
+}
+.left{
+  display: flex;
+  gap: 10px;
+}
+.item-1{
+  color: hsl(0, 100%, 67%);
+  background-color: hsl(12, 100%, 95%)
+}
+.item-2{
+  color: hsl(39, 100%, 56%);
+  background-color:hsl(60, 100%, 95%)
+}
+.item-3{
+  color: hsl(166, 100%, 37%);
+  background-color: hsl(166, 100%, 95%);
+}
+.item-4{
+  color: hsl(234, 85%, 45%);
+  background-color: hsl(232, 85%, 95%);
+}
+.summary h3, .obtained{
+  color: hsl(224, 30%, 27%);
+}
+.from{
+  color:hsl(0, 0%, 54%);
+}
+@media(min-width:481px){
+  body{
+    
+    height: 100vh;
+  }
+  main{
+    display: flex;
+    width: 600px;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: rgba(124, 87, 245, 0.15) 3px 3px 5px;
+  }
+  .result{
+   height: auto;
+   width: 45%;
+   border-radius: 1rem;
+   
+  }
+  .summary{
+    width: 55%;
+    padding: 30px;
+  }
+}
+
+
+
