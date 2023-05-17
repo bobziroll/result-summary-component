@@ -3,13 +3,13 @@
     "id":1,
     "category": "Reaction",
     "score": 80,
-    "icon": "./src/images/icon-reaction.svg"
+    "icon": "../src/images/icon-reaction.svg"
   },
   {
     "id":2,
     "category": "Memory",
     "score": 92,
-    "icon": "./src/images/icon-memory.svg"
+    "icon": "../src/images/icon-memory.svg"
   },
   {
     "id":3,
