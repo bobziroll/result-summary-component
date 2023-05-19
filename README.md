@@ -4,7 +4,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ### Links
 
 - Solution URL: https://github.com/akdhiman358/result-summary-component.git
-- Live Site URL: https://famous-palmier-a4346a.netlify.app
+- Live Site URL: https://famous-palmier-a4346a.netlify.app/
 
 ### Built with
 
